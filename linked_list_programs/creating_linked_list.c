@@ -1,13 +1,15 @@
-#include<stdio.h>
-#include<stdlib.h>
+// Creating a singly linked list and assigning datas to it and finally printing the data
+#include<stdio.h> // standard input output .header file
+#include<stdlib.h> // including C standard library
 //Creating the node using structure
 struct Node
 {
     /* data */
     int data;
-    struct Node *next;
+    struct Node *next; // pointer to the next node
 };
  
+ // user defined function to print the data in a linked list
 void print_data(struct Node * head) 
 {
     struct Node *ptr=NULL;
@@ -18,6 +20,9 @@ void print_data(struct Node * head)
         ptr=ptr->next;
     }
 }
+
+//Main function
+
 void main()
 {   // Creating the variables 
     struct Node *head = NULL;
@@ -29,7 +34,7 @@ void main()
     second=(struct Node *)malloc(sizeof(struct Node ));
     third=(struct Node *)malloc(sizeof(struct Node ));
     
-    // inserting data to the creating nodes and linking the nodes
+    // inserting data to the first node and linking it to the next node.
     head->data=2;
     head->next=second;
 
