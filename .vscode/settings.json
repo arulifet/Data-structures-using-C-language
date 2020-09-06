@@ -1,0 +1,30 @@
+{
+    "sqltools.connections": [
+        {
+            "askForPassword": true,
+            "database": "students",
+            "driver": "MySQL",
+            "mysqlOptions": {
+                "authProtocol": "default"
+            },
+            "name": "ARUL",
+            "port": 3306,
+            "previewLimit": 50,
+            "server": "localhost",
+            "username": "root"
+        },
+        {
+            "database": "mysql",
+            "driver": "MySQL",
+            "mysqlOptions": {
+                "authProtocol": "default"
+            },
+            "name": "mynew",
+            "port": 3306,
+            "previewLimit": 50,
+            "server": "localhost",
+            "username": "root",
+            "password": ""
+        }
+    ]
+}
