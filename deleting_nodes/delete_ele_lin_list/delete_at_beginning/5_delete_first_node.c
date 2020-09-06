@@ -7,7 +7,8 @@ step 2: define a function to delete the first node of the linked list
     step 2.2 : move the head and point it to the next node 
     step 2.3 : free the memory of the temp pointer which is actually the first node of the linked list
     step 2.4 : return the head pointer to the main function so that the changes will get reflected.
-step 3: traverse the list and print the data inside the linked list.     
+step 3: traverse the list and print the data inside the linked list.  
+step 4: End the process   
 */
 
 #include<stdio.h>
